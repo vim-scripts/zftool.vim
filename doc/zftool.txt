@@ -1,0 +1,63 @@
+*zftool.txt* Plugin for working with ZFTool utility for Zend Framework 2
+
+Author: David Saenz Tagarro <david.saenz.tagarro@gmail.com>
+
+===============================================================================
+CONTENTS                                                               *zftool*
+
+    1. Intro ................................................... |zftool-intro|
+    2. Requirements ..................................... |zftool-requirements|
+    3. Usage ................................................... |zftool-usage|
+    4. About ................................................... |zftool-about|
+    5. Licence ............................................... |zftool-licence|
+===============================================================================
+1. Intro                                                         *zftool-intro*
+
+ZFTool is an utility module for maintaining modular Zend Framework 2
+applications. It runs from the command line and can be installed as ZF2 module
+or as PHAR
+
+This plugin gives you access to ZFTool features without leaving your favourite
+editor.
+
+2. Requirements                                           *zftool-requirements*
+
+- Vim running inside tmux session
+- Installed plugin: 'benmills/vimux'
+- Command zf.php available from command line
+
+Check requirements for zf.php at official repository:
+
+https://github.com/zendframework/ZFTool
+
+3. Usage                                                         *zftool-usage*
+
+Normal Mode:
+
+Currently you have access to ZFTool features from command line:
+
+:ZFnewProject    - Project creation
+:ZFnewModule     - Module creation
+:ZFnewController - Controller creation
+:ZFnewAction     - Action creation
+:ZFrepeat        - Repeat last ZF command run
+
+Every time you run a command values are cached in order to make next command
+quickier to run
+
+4. About                                                         *zftool-about*
+
+The latest stable version can be found at
+  http://www.vim.org/scripts/script.php?script_id=XXXX
+
+Bugs can be reported and the very latest development version can be retrieved
+from GitHub:
+  https://github.com/dsaenztagarro/ZFTool.vim >
+  git clone git://github.com/dsaenztagarro/ZFTool.vim.git
+
+5. License                                                     *zftool-license*
+
+Copyright (c) David Saenz Tagarro.  Distributed under the same terms as Vim itself.
+See |license|.
+
+ vim:tw=78:ts=8:ft=help:norl:
